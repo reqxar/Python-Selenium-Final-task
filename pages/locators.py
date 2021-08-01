@@ -16,3 +16,9 @@ class ProductPageLocators():
     BOOK_TITLE_IN_BASKET = (By.CSS_SELECTOR, ".alert.alert-safe.alert-noicon.alert-success .alertinner strong")
     BOOK_PRICE_ON_PAGE = (By.CSS_SELECTOR, "h1 + .price_color")
     BOOK_PRICE_IN_BASKET = (By.CSS_SELECTOR, "div.alertinner > p > strong ")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert.alert-safe.alert-noicon.alert-success .alertinner strong")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")    
