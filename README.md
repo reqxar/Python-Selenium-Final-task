@@ -1,2 +1,3 @@
-# TEST_FINAL_TASK
-Repository for final task
+# TPythin selenium
+Сохранение кода для прохождения финального задания курса https://stepik.org/course/575/syllabus
+
